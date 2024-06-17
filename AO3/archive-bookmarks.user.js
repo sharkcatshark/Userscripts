@@ -1,24 +1,48 @@
 // ==UserScript==
 // @name        AO3: Archived Bookmarks
-// @version     1.0
+// @version     2.0
 // @description Tag bookmarks with 'Archived' or another chosen tag to have them automatically hidden from searches
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
 // @match       *://archiveofourown.org/users/*/bookmarks
+// @match       *://archiveofourown.org/bookmarks*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=archiveofourown.org
 // ==/UserScript==
 
 var archiveTag = "Archived"; // tag to use for fics you want to archive
+var archiveTagID = 1254691;  // THIS MUST BE USER SET IF YOU CHANGE THE ABOVE // ID CAN BE FOUND HERE: &include_bookmark_search[tag_ids][]=1254691
 
-// this could be modified to be simpler
-var getSegment = function (url, index) { // get username // stolen from here: https://stackoverflow.com/a/11703704/17150317
-    return url.replace(/^https?:\/\//, '').split('/')[index];
+var archiveString = "&include_bookmark_search%5Btag_ids%5D%5B%5D=" + archiveTagID;
+var hiddenCount = 0;
+
+if (!window.location.href.includes(archiveString)) {
+    console.log("Not currently searching for archived tags")
+    var bookmarks = document.querySelectorAll(".bookmark.blurb.group");
+    bookmarks.forEach(checkForArchived);
+    displayNumberArchived();
+    console.log("Hidden Fic Count: " + hiddenCount);
 }
+else { // if actively searching for Archived works, do not hide
+    console.log("Currently searching for archived tags");
+};
 
-var userName = getSegment(window.location.href, 2);
+function checkForArchived(item) {
+    var userTags = item.lastElementChild.querySelector(".meta.tags.commas");
 
-// change url to filtering archived
-window.location.href = "https://archiveofourown.org/bookmarks?&user_id=" + userName + "&bookmark_search[excluded_bookmark_tag_names]=" + archiveTag;
+    if (userTags != null) { // if bookmark has user made tags
+        var tags = userTags.getElementsByTagName("li");
+        for (var i = 0; i < tags.length; ++i) { // loop through tags
+            if (tags[i].innerText == archiveTag) { // if a tag matches archive tag
+                item.style.display = "none"; // hide bookmark
+                hiddenCount += 1;
+            }
+        }
+    }
+};
 
-
-// consider also doing if work has tag do hidden all
+function displayNumberArchived() {
+    if (hiddenCount > 0) {
+        var header = document.querySelector("h2.heading");
+        header.innerText += " (" + hiddenCount + " Hidden)";
+    }
+};
