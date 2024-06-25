@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        AO3: Archived Bookmarks
-// @version     2.0
+// @version     2.1
 // @description Tag bookmarks with 'Archived' or another chosen tag to have them automatically hidden from searches
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
@@ -13,9 +13,10 @@ var archiveTag = "Archived"; // tag to use for fics you want to archive
 var archiveTagID = 1254691;  // THIS MUST BE USER SET IF YOU CHANGE THE ABOVE // ID CAN BE FOUND HERE: &include_bookmark_search[tag_ids][]=1254691
 
 var archiveString = "&include_bookmark_search%5Btag_ids%5D%5B%5D=" + archiveTagID;
+var archiveString2 = "&bookmark_search%5Bother_bookmark_tag_names%5D=" + archiveTag;
 var hiddenCount = 0;
 
-if (!window.location.href.includes(archiveString)) {
+if ((!window.location.href.includes(archiveString)) || (!window.location.href.includes(archiveString2))) {
     console.log("Not currently searching for archived tags")
     var bookmarks = document.querySelectorAll(".bookmark.blurb.group");
     bookmarks.forEach(checkForArchived);
