@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        AO3: Stat Graphs+
-// @version     1.0
+// @version     1.0.1
 // @description New and improved statistics page for AO3
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
