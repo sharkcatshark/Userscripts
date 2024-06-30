@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        AO3: Display Full Work Conditionally
-// @version     1.0
+// @version     1.0.1
 // @description Makes chaptered works under a certain wordcount display in full instead of chaptered
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
