@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        AO3: Remove from List
-// @version     1.1
+// @version     1.1.1
 // @description On 'Marked For Later' pages, add a button to remove from list without deleting
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
