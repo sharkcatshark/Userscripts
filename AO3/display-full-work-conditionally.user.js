@@ -6,6 +6,7 @@
 // @namespace   https://github.com/sharkcatshark/Userscripts
 // @match       *://archiveofourown.org/works/*/chapters/*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=archiveofourown.org
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // @match url makes it so this only runs on chaptered works
