@@ -6,6 +6,7 @@
 // @namespace   https://github.com/sharkcatshark/Userscripts
 // @match       *://archiveofourown.org/
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=archiveofourown.org
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // bonus thing that adds a counter so you know how many fav tags you have out of the max allowed
