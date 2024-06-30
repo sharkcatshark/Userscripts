@@ -8,6 +8,7 @@
 // @match        http://fluky.gossamer.org/author/*
 // @icon         http://fluky.gossamer.org/favicon.ico
 // @require      https://code.jquery.com/jquery-3.7.0.min.js
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // Disclaimers:
