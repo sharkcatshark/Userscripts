@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        AO3: Fav Tag Counter
-// @version     1.0
+// @version     1.0.1
 // @description Show a counter of how many tags you have favourited on the homepage
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
