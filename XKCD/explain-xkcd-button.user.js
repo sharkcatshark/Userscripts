@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Explain XKCD Button
-// @version     1.0
+// @version     1.0.1
 // @description Adds a button to XKCD pages to redirect to the explanation wiki
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
