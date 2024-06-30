@@ -6,6 +6,7 @@
 // @namespace   https://github.com/sharkcatshark/Userscripts
 // @match       https://witchhatatelier.telepedia.net/*
 // @icon        https://static.telepedia.net/witchhatatelierwiki/4/4a/Site-favicon.ico
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // Add links in the format of <li class="mw-list-item"><a href="LINK HERE">VISIBLE TEXT HERE</a></li>
