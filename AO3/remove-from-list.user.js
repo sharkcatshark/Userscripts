@@ -7,6 +7,7 @@
 // @match       *://archiveofourown.org/users/*/readings?*show=to-read
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=archiveofourown.org
 // @require     https://code.jquery.com/jquery-3.7.0.min.js
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // Start User Settings
