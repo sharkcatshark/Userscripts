@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name        AO3: Archived Bookmarks
-// @version     2.1
+// @version     2.1.1
 // @description Tag bookmarks with 'Archived' or another chosen tag to have them automatically hidden from searches
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
 // @match       *://archiveofourown.org/users/*/bookmarks
 // @match       *://archiveofourown.org/bookmarks*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=archiveofourown.org
+// @license     GNU GPLv3
 // ==/UserScript==
 
 var archiveTag = "Archived"; // tag to use for fics you want to archive
