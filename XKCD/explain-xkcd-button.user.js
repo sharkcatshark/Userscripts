@@ -7,6 +7,7 @@
 // @match       https://xkcd.com/*
 // @icon        https://www.google.com/s2/favicons?sz=64&domain=xkcd.com
 // @require     https://code.jquery.com/jquery-3.7.0.min.js
+// @license     GNU GPLv3
 // ==/UserScript==
 
 const comic_url = window.location.href;
