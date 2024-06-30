@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        WHA Wiki Sidebar Addons
-// @version     1.0
+// @version     1.0.1
 // @description Adds personalised links to the WHA wiki sidebar for the Vector Legacy (2010) skin
 // @author      sharkcat
 // @namespace   https://github.com/sharkcatshark/Userscripts
