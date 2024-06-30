@@ -9,6 +9,7 @@
 // @require     https://code.jquery.com/jquery-3.7.0.min.js
 // @require     https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js
 // @require     https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0
+// @license     GNU GPLv3
 // ==/UserScript==
 
 // -- START Settings -- //
