@@ -37,6 +37,12 @@ Various userscripts I've made. Organised by website.
 |-------------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|-------------|
 | WHA Wiki Sidebar Addons | Adds personalised links to the WHA wiki sidebar for the Vector Legacy (2010) skin | [GitHub](https://github.com/sharkcatshark/Userscripts/raw/main/WHA-Wiki/sidebar-addons.user.js) |             |
 
+### Bandcamp
+
+| Name                            | Description                                                                             | Raw File                                                                                         | Greasy Fork |
+|---------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-------------|
+| Bandcamp: Artist to Discography | When you click the artist name on an album page, it'll take you to the discography page | [GitHub](https://github.com/sharkcatshark/Userscripts/raw/main/Bandcamp/artist-to-album.user.js) |             |
+
 ## Details
 
 ### AO3: Stat Graphs+
