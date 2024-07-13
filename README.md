@@ -21,9 +21,10 @@ Various userscripts I've made. Organised by website.
 
 ### Gossamer
 
-| Name                         | Description                                            | Raw File                                                                                            | Greasy Fork |
-|------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-------------|
-| Gossamer Estimate Word Count | Adds a vague estimate of a word count to gossamer fics | [GitHub](https://github.com/sharkcatshark/Userscripts/raw/main/Gossamer/estimate-wordcount.user.js) |             |
+| Name                          | Description                                            | Raw File                                                                                            | Greasy Fork |
+|-------------------------------|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------|-------------|
+| Gossamer: Estimate Word Count | Adds a vague estimate of a word count to gossamer fics | [GitHub](https://github.com/sharkcatshark/Userscripts/raw/main/Gossamer/estimate-wordcount.user.js) |             |
+| Gossamer: Full Year           | Changes archived date to show full year (iso 8601)     | [GitHub](https://github.com/sharkcatshark/Userscripts/raw/main/Gossamer/full-year.user.js)          |             |
 
 ### XKCD
 

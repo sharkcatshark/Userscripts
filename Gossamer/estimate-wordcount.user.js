@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Gossamer Estimate Word Count
+// @name         Gossamer: Estimate Word Count
 // @version      1.0.1
 // @description  Adds a vague estimate of a word count to gossamer fics
 // @author       sharkcat
